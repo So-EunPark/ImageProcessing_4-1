@@ -3,28 +3,28 @@
 using namespace cv;
 using namespace std;
 
-int main() {
-
-	int theta = 0;
-	while (1) {
-		Mat image(300, 500, CV_8UC1, Scalar(255));
-		Point2f center(250, 150), pts[4];
-		Size2f size(300, 100);
-		RotatedRect rot_rect(center, size, theta += 5);
-
-		Rect bound_rect = rot_rect.boundingRect();
-		rectangle(image, bound_rect, Scalar(0), 1);
-		circle(image, rot_rect.center, 5, Scalar(0), 2);
-
-		rot_rect.points(pts);
-		for (int i = 0; i < 4; i++) {
-			circle(image, pts[i], 4, Scalar(0), 1);
-			line(image, pts[i], pts[(i + 1) % 4], Scalar(0), 2);
-		}
-
-		imshow("회전사각형", image);
-		waitKey(300);
-		
-	}
-	return 0;
-}
+//int main() {
+//
+//	int theta = 0;
+//	while (1) {
+//		Mat image(300, 500, CV_8UC1, Scalar(255));
+//		Point2f center(250, 150), pts[4];
+//		Size2f size(300, 100);
+//		RotatedRect rot_rect(center, size, theta += 5);
+//
+//		Rect bound_rect = rot_rect.boundingRect();
+//		rectangle(image, bound_rect, Scalar(0), 1);
+//		circle(image, rot_rect.center, 5, Scalar(0), 2);
+//
+//		rot_rect.points(pts);
+//		for (int i = 0; i < 4; i++) {
+//			circle(image, pts[i], 4, Scalar(0), 1);
+//			line(image, pts[i], pts[(i + 1) % 4], Scalar(0), 2);
+//		}
+//
+//		imshow("회전사각형", image);
+//		waitKey(300);
+//		
+//	}
+//	return 0;
+//}
