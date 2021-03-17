@@ -148,6 +148,9 @@
     <ClCompile Include="3_2_8.cpp" />
     <ClCompile Include="3_3_1.cpp" />
     <ClCompile Include="3_4_1.cpp" />
+    <ClCompile Include="3_5_1.cpp" />
+    <ClCompile Include="3_5_3.cpp" />
+    <ClCompile Include="4_2_3_트랙바이벤트 사용.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="point2.cpp" />
     <ClCompile Include="rect.cpp" />

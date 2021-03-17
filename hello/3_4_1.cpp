@@ -1,8 +1,10 @@
 //p.111
 #include <opencv2/opencv.hpp>
 
+
 using namespace cv;
 using namespace std;
+/*
 int main() {
 	Range r1(0, 3), r2(3, 7);
 	int data[] = {
@@ -28,3 +30,4 @@ int main() {
 	cout << "[m1]=" << endl << m1 << endl << endl;
 	return 0;
 }
+*/
