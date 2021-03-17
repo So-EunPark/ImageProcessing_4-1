@@ -2,7 +2,7 @@
 
 using namespace cv;
 using namespace std;
-
+/*
 int main() {
 
 	int theta = 0;
@@ -37,3 +37,4 @@ int main() {
 	}
 
 }
+*/
