@@ -4,9 +4,10 @@
 
 using namespace cv;
 using namespace std;
-
+/*
 String title = "트랙바 이벤트";
 Mat image;
+
 
 void onChange(int value, void* userdata) {
 	int add_value = value - 130;
@@ -27,3 +28,4 @@ int main() {
 	waitKey(0);
 	return 0;
 }
+*/
