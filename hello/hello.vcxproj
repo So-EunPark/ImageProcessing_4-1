@@ -157,6 +157,10 @@
     <ClCompile Include="4_5_1.cpp" />
     <ClCompile Include="4_5_2.cpp" />
     <ClCompile Include="4_6_1.cpp" />
+    <ClCompile Include="5_1_1.cpp" />
+    <ClCompile Include="5_2_1.cpp" />
+    <ClCompile Include="5_2_3.cpp" />
+    <ClCompile Include="5_3_1.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="point2.cpp" />
     <ClCompile Include="rect.cpp" />

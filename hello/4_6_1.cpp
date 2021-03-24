@@ -4,7 +4,7 @@
 using namespace cv;
 using namespace std;
 
-/**/
+/*
 int main() {
 	FileStorage fs("test.xml", FileStorage::WRITE);
 	string name = "¹Ú¼ÒÀº";
@@ -32,3 +32,5 @@ int main() {
 	fs.release();
 	return 0;
 }
+
+*/
