@@ -4,6 +4,7 @@
 using namespace cv;
 using namespace std;
 
+/*
 int main() {
 
 	Mat m1(3, 6, CV_8UC1, Scalar(10));
@@ -32,3 +33,4 @@ int main() {
 	cout << "[m_div2]=" << endl << m_div2 << endl;
 	return 0;
 }
+*/
