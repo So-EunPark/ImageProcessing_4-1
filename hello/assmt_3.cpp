@@ -12,7 +12,7 @@ using namespace std;
 //	CV_Assert(logo.data && sea.data && character.data);
 //
 //	//로고 이진화
-//	threshold(logo, logo_th, 50, 255, THRESH_BINARY);
+//	threshold(logo, logo_th, 30, 255, THRESH_BINARY);
 //	split(logo_th, masks);
 //	
 //	//로고 포인트
@@ -52,13 +52,13 @@ using namespace std;
 //	dst2.copyTo(sea(roi2));
 //
 //
-//	imshow("dst2", dst2);
-//	imshow("foreground", foreground);
-//	imshow("foreground2", foreground2);
+//	imshow("sea", sea);
+//	imshow("logo", logo);
+//	imshow("character", character);
 //	//imshow("character", character);
 //	//imshow("masks2[0])", masks2[0]);
-//	imshow("masks2[3]", masks2[3]);
-//	imshow("masks3", sea);
+//	//imshow("masks2[3]", masks2[3]);
+//	imshow("완성본", sea);
 //	waitKey();
 //	return 0;
 //}
