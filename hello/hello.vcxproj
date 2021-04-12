@@ -178,6 +178,9 @@
     <ClCompile Include="6_3_2.cpp" />
     <ClCompile Include="6_3_3.cpp" />
     <ClCompile Include="6_3_4.cpp" />
+    <ClCompile Include="6_3_5.cpp" />
+    <ClCompile Include="6_3_6.cpp" />
+    <ClCompile Include="6_4_5.cpp" />
     <ClCompile Include="assmt_3.cpp" />
     <ClCompile Include="BGR_trackbar.cpp" />
     <ClCompile Include="main.cpp" />
